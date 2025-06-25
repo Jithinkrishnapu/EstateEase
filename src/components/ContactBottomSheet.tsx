@@ -136,7 +136,7 @@ export const ContactBottomSheet: React.FC<ContactBottomSheetProps> = ({
           >
 
             {/* Header */}
-            <View className="flex-row items-center px-6 mb-4">
+            <View className="flex-row items-center py-3 px-6 mb-4">
               <Text className="text-lg font-semibold text-gray-800">
                 Contact Agent
               </Text>

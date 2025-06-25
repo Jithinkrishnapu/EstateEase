@@ -1,8 +1,13 @@
 {
   "expo": {
-    "name": "my-expo-app",
-    "slug": "my-expo-app",
+    "name": "EstateEase",
+    "slug": "estateease",
     "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "privacy": "public",
     "web": {
       "favicon": "./assets/favicon.png"
     },
@@ -24,13 +29,29 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jithinkrishna1998.estateease",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.jithinkrishna1998.estateease"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7611578b-ef08-4749-bc24-b83d31e26969"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7611578b-ef08-4749-bc24-b83d31e26969"
     }
   }
 }
